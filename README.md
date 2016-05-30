@@ -5,7 +5,6 @@
 This is a **>educational<** project.<br>
 Don't expect it to be stable enough for your purposes or ***ever*** leave the alpha phase :)
 
-<hr>
 ## Project State:
 
 ### Language Definition
