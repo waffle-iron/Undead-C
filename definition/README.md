@@ -1,5 +1,8 @@
 # Undead-C Definition
 
+The official file-extension for undead-c programs is `.udc`.<br>
+(If there are headers at some point in the future they'd have `.udh` obviously).
+
 
 ### Constants
 None yet
@@ -7,7 +10,7 @@ None yet
 ### Value-Changing Operators
 |Name|Example
 |:-:|:-:
-|Assignment|`a = val`
+|Assignment|`a = b`
 |Concatenate|`a . b` &nbsp; `a .= b`
 |Pre-Increment|`++a`
 |Post-Increment|`a++`
@@ -58,6 +61,8 @@ None yet
 |Start of a procedural program|`QUICK REVIVE`
 |End of a procedural program|`DIE MAGGOT`
 |||
+|Create a new class instance|`SPAWN(class)`
+|||
 |stdout|`SCREAM(...)`
 |Record stdin <br> return value on `<enter>`|`SPLENDIFEROUS()`
 |Define a variable|`BEING name = value`
@@ -65,7 +70,7 @@ None yet
 ### Call of Duty Perks
 |Name|`DRINK()` ID|Purpose|Usage
 |:-:|:-:|:-:|:-:|
-|-|-|Loads perk to a custom macro|`BEING name = DRINK(perk)`
+|-|-|Loads perk into a var|`BEING name = DRINK(perk)`
 |Quick Revive|QUICK_REVIVE|Declare a function|`REVIVE myFunction(...args) {...}` &nbsp; `REVIVE(args) {}`
 |Juggernog|JUGGERNOG|Declare a class|`TAKE A TUG OF myClass {...}`
 |Mule Kick|MULE_KICK|Declare an array|`EL BURRO(item, item, ...);`
