@@ -50,7 +50,7 @@ None yet
 |Is NULL|`??a`
 
 ### Keywords
-|Name|Purpose|
+|Name|Usage|
 |:--:|:--:|:--:|
 |Begin parsing (web-mode)|`<!BEING IN THE DARK IS FUN!>`
 |End parsing (web-mode)|`<!POP GOES THE WEASEL!>`
@@ -60,6 +60,7 @@ None yet
 |||
 |stdout|`SCREAM(...)`
 |Record stdin <br> return value on `<enter>`|`SPLENDIFEROUS()`
+|Define a variable|`BEING name = value`
 
 ### Call of Duty Perks
 |Name|`DRINK()` ID|Purpose|Usage
