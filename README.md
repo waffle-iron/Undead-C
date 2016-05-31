@@ -1,10 +1,10 @@
 # Undead-C &nbsp; ![](http://i.imgur.com/Kld3G3B.png)
 
-#### A programming language based on Post-Apocalyptic Statements <br> and quotes from the Call of Duty Zombie-Mode.
+##### A programming language based on Post-Apocalyptic Statements <br> and quotes from the Call of Duty Zombie-Mode.
 
-#### The Syntax is HEAVILY influenced by PHP and JavaScript and also introduces some own concepts
+The Syntax is HEAVILY influenced by PHP and JavaScript and also introduces some own concepts
 
-This is a **>educational<** project.<br>
+This is an **>educational<** project.<br>
 Don't expect it to be stable enough for your purposes or ***ever*** leave the alpha phase :)
 
 ## Project State:
