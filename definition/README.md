@@ -58,8 +58,7 @@ None yet
 |Begin parsing (web-mode)|`<!BEING IN THE DARK IS FUN!>`
 |End parsing (web-mode)|`<!POP GOES THE WEASEL!>`
 |||
-|Start of a procedural program|`QUICK REVIVE`
-|End of a procedural program|`DIE MAGGOT`
+|Define an anonymous function that executes itself|`QUICK REVIVE {...}`
 |||
 |Create a new class instance|`SPAWN(class)`
 |||
