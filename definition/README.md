@@ -70,7 +70,7 @@ None yet
 |Name|`DRINK()` ID|Purpose|Usage
 |:-:|:-:|:-:|:-:|
 |-|-|Loads perk into a var|`BEING name = DRINK(perk)`
-|Quick Revive|QUICK_REVIVE|Declare a function|`REVIVE myFunction(...args) {...}` &nbsp; `REVIVE(args) {}`
+|Quick Revive|QUICK_REVIVE|Declare a function|`REVIVE myFunction(...args) {...}` &nbsp; `REVIVE(args) {}` &nbsp; `QUICK REVIVE {...}`
 |Juggernog|JUGGERNOG|Declare a class|`TAKE A TUG OF myClass {...}`
 |Mule Kick|MULE_KICK|Declare an array|`EL BURRO(item, item, ...);`
 |Double Tap Root Beer|DOUBLE_TAP|Run in a new thread|`YA THIRSTY PARTNER(func);`
