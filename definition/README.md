@@ -87,3 +87,10 @@ The official file-extension for undead-c programs is `.udc`.<br>
 |Who's Who|WHO|Restart Program after failure|`I FEEL BAD BUT NOT AS BAD AS ME(entrypoint)`
 |Electric Cherry|ELECTRIC_CHERRY|Access the process object|`SHOCK();`
 |Vulture Aid|VULTURE|Reflect current class as json string|`LOOKING FOR A SIGN();`
+
+### Other
+|Name|Example
+|:-:|:-:
+|One-line comment|`// I am a comment`
+|Multi-line comment|`/* COMMENTS */`
+|UndeadDoc comment|`/** @something value */`
