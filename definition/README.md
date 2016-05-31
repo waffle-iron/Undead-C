@@ -60,7 +60,8 @@ The official file-extension for undead-c programs is `.udc`.<br>
 |Begin parsing (web-mode)|`<!!QUICK REVIVE!!>`
 |End parsing (web-mode)|`<!!DIE MAGGOT!!>`
 |||
-Import another Undead-C file|`INFECT('/path/to/file.udc')`
+|Export a module|`CONTAMINATE(class)`
+|Import another Undead-C file|`INFECT('/path/to/file.udc')`
 |||
 |Define an anonymous function that executes itself|`QUICK REVIVE {...}`
 |||
