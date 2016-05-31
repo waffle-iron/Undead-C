@@ -5,7 +5,9 @@ The official file-extension for undead-c programs is `.udc`.<br>
 
 
 ### Constants
-None yet
+|Name|ID|
+|:-:|:-:|
+|All Perk-A-Cola ID's for `DRINK()`|See below|
 
 ### Value-Changing Operators
 |Name|Example
@@ -55,8 +57,8 @@ None yet
 ### Keywords
 |Name|Usage|
 |:--:|:--:|:--:|
-|Begin parsing (web-mode)|`<!BEING IN THE DARK IS FUN!>`
-|End parsing (web-mode)|`<!POP GOES THE WEASEL!>`
+|Begin parsing (web-mode)|`<!!QUICK REVIVE!!>`
+|End parsing (web-mode)|`<!!DIE MAGGOT!!>`
 |||
 Import another Undead-C file|`INFECT('/path/to/file.udc')`
 |||
@@ -65,13 +67,13 @@ Import another Undead-C file|`INFECT('/path/to/file.udc')`
 |Create a new class instance|`SPAWN(class)`
 |||
 |stdout|`SCREAM(...)`
-|Record stdin <br> return value on `<enter>`|`SPLENDIFEROUS()`
-|Define a variable|`BEING name = value`
+|Record stdin <br> returns value on `<enter>`|`LISTEN()`
+|Define a variable (aka summon a creature)|`CREATURE name = value`
 
 ### Call of Duty Perks
 |Name|`DRINK()` ID|Purpose|Usage
 |:-:|:-:|:-:|:-:|
-|-|-|Loads perk into a var|`BEING name = DRINK(perk)`
+|-|-|Loads perk into a var|`CREATURE name = DRINK(perk)`
 |Quick Revive|QUICK_REVIVE|Declare a function|`REVIVE myFunction(...args) {...}` &nbsp; `REVIVE(args) {}` &nbsp; `QUICK REVIVE {...}`
 |Juggernog|JUGGERNOG|Declare a class|`TAKE A TUG OF myClass {...}`
 |Mule Kick|MULE_KICK|Declare an array|`EL BURRO(item, item, ...);`
