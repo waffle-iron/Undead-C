@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/sn0w/Undead-C.png?label=ready&title=Ready)](https://waffle.io/sn0w/Undead-C)
 # Undead-C &nbsp; ![](http://i.imgur.com/Kld3G3B.png)
 
 ##### A programming language based on Post-Apocalyptic Statements <br> and quotes from the Call of Duty Zombie-Mode.
