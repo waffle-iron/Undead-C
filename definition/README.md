@@ -58,6 +58,8 @@ None yet
 |Begin parsing (web-mode)|`<!BEING IN THE DARK IS FUN!>`
 |End parsing (web-mode)|`<!POP GOES THE WEASEL!>`
 |||
+Import another Undead-C file|`INFECT('/path/to/file.udc')`
+|||
 |Define an anonymous function that executes itself|`QUICK REVIVE {...}`
 |||
 |Create a new class instance|`SPAWN(class)`
