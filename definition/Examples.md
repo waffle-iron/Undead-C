@@ -15,8 +15,8 @@ TAKE A TUG OF helloClass {
     }
 }
 
-BEING instance = SPAWN(helloClass);
-BEING name = SPLENDIFEROUS();
+CREATURE instance = SPAWN(helloClass);
+CREATURE name = SPLENDIFEROUS();
 instance->sayHello(name);
 ```
 
@@ -36,12 +36,12 @@ instance->sayHello(name);
 ## Redefine perks
 ```
 # Import QuickRevive and assign it to the var 'func'
-BEING func = DRINK(QUICK_REVIVE);
+CREATURE func = DRINK(QUICK_REVIVE);
 
 # Use the alias
 func hello(name) {
     SCREAM("Hello" . name);
 }
 
-hello(SPLENDIFEROUS());
+hello(LISTEN());
 ```
