@@ -45,3 +45,23 @@ func hello(name) {
 
 hello(LISTEN());
 ```
+
+## Import other files
+class.udc
+```
+TAKE A TUG OF sampleClass {
+    REVIVE hello(name) {
+        SCREAM("Hello " . name);
+    }
+}
+
+CONTAMINATE sampleClass;
+```
+
+main.udc
+```
+CREATURE sampleClass = INFECT('class.udc');
+CREATURE instance = SPAWN(sampleClass);
+
+instance->hello(LISTEN());
+```
