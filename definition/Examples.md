@@ -25,9 +25,9 @@ instance->sayHello(name);
 <html>
 <body>
     <h1>
-        <!BEING IN THE DARK IS FUN!>
+        <!!QUICK REVIVE!!>
             SCREAM("Hello World!");
-        <!POP GOES THE WEASEL!>
+        <!!DIE MAGGOT!!>
     </h1>
 </body>
 </html>
