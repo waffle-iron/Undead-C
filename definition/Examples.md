@@ -16,7 +16,7 @@ TAKE A TUG OF helloClass {
 }
 
 CREATURE instance = SPAWN(helloClass);
-CREATURE name = SPLENDIFEROUS();
+CREATURE name = LISTEN();
 instance->sayHello(name);
 ```
 
