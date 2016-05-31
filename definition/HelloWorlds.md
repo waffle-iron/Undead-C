@@ -1,10 +1,10 @@
 # Hello World Programs
 
-## Procedural Program
+## Smallest program
 ```
-QUICK REVIVE
-    SCREAM("Hello World!");
-DIE MAGGOT
+QUICK REVIVE {
+    SCREAM("Hello World");
+}
 ```
 
 ## OOP Program
@@ -15,11 +15,9 @@ TAKE A TUG OF helloClass {
     }
 }
 
-QUICK REVIVE
-    BEING instance = SPAWN(helloClass);
-    BEING name = SPLENDIFEROUS();
-    instance->sayHello(name);
-DIE MAGGOT
+BEING instance = SPAWN(helloClass);
+BEING name = SPLENDIFEROUS();
+instance->sayHello(name);
 ```
 
 ## Web-Mode
@@ -33,4 +31,17 @@ DIE MAGGOT
     </h1>
 </body>
 </html>
+```
+
+## Redefine perks
+```
+# Import QuickRevive and assign it to the var 'func'
+BEING func = DRINK(QUICK_REVIVE);
+
+# Use the alias
+func hello(name) {
+    SCREAM("Hello" . name);
+}
+
+hello(SPLENDIFEROUS());
 ```
